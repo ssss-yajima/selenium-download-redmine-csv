@@ -28,10 +28,9 @@ pass_box.submit()
 # open query page
 project_id = 'demo'
 query_id = '807'
-
-# get project name
 driver.get(base_url + '/projects/' + project_id + '/issues?query_id=' +
            query_id)
+# get project name
 project_name = driver.find_element_by_class_name('current-project').text
 print('Downloading... ' + project_name)
 
