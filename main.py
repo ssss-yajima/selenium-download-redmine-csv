@@ -3,7 +3,7 @@ import yaml
 import csv
 from datetime import datetime as dt
 
-from redmine_download_query import RedmineQueryParam, MyRedmineDriver
+from redmine_driver import RedmineQueryParam, MyRedmineDriver
 
 if __name__ == '__main__':
 
