@@ -1,0 +1,3 @@
+redmine:
+  url: 'https://my.redmine.jp/demo'
+  user_id: 'developer'

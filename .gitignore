@@ -1,4 +1,4 @@
-redmine_csv
+redmine/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

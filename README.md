@@ -9,6 +9,7 @@
 
 ```sh
 pip install selenium
+pip install pyyaml
 ```
 
 ### Chromeドライバーのインストール
