@@ -80,7 +80,7 @@ class MyRedmineDriver:
             while (not os.path.exists(download_file_path)):
                 time.sleep(1)
 
-            # rename issue.csv to project_name.csv
+            # rename issue.csv to {project}_{query}.csv
             filename = '%s_%s.csv' % (project_name, query_name)
             reanamed_file_path = os.path.join(self.output_dir, filename)
             os.rename(download_file_path, reanamed_file_path)
