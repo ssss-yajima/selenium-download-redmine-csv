@@ -1,20 +1,21 @@
-# python-scraping
+# Download csv file from Redmine query
 
 ## setup
 
-### 前提
-[Python](https://www.python.org/downloads/)がインストールされていること。
+### Prerequisite
 
-### 依存ライブラリのインストール
+[Python](https://www.python.org/downloads/) is installed.
+
+### Install python dependenciiies
 
 ```sh
 pip install selenium
 pip install pyyaml
 ```
 
-### Chromeドライバーのインストール
+### Install ChromeDriver
 
-[ChromeDriver](https://chromedriver.chromium.org/downloads)をダウンロードして任意の場所に保存し、パスを通す。
+自分のGoogleChromeのバージョンに応じた[ChromeDriver](https://chromedriver.chromium.org/downloads)をダウンロードして任意の場所に保存し、パスを通す。
 
 ## 参考
 
