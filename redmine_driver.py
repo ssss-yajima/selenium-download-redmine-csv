@@ -13,12 +13,10 @@ class RedmineQueryParam:
 
 class MyRedmineDriver:
     # constructor
-    def __init__(self, base_url, output_dir, exec_datetime):
+    def __init__(self, base_url, output_dir):
         ## yyyymmdd_hhmmss
-        self.timestamp = exec_datetime.strftime('%Y%m%d_%H%M%S')
         self.base_url = base_url
-        # create timestamp dir to as output dir
-        self.output_dir = os.path.join(output_dir, self.timestamp)
+        self.output_dir = output_dir
         self.driver = None
         self.logged_in = False
         self.log_head = 'Redmine'
